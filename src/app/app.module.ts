@@ -10,6 +10,7 @@ import { PreloaderComponent } from './preloader/preloader.component';
 import { FrameComponent } from './frame/frame.component';
 import { SidepanelComponent } from './frame/sidepanel/sidepanel.component';
 import { ContentComponent } from './frame/content/content.component';
+import { ProfileComponent } from './frame/sidepanel/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContentComponent } from './frame/content/content.component';
     PreloaderComponent,
     FrameComponent,
     SidepanelComponent,
-    ContentComponent
+    ContentComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
