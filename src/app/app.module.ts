@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PreloaderComponent } from './preloader/preloader.component';
 import { FrameComponent } from './frame/frame.component';
+import { SidepanelComponent } from './frame/sidepanel/sidepanel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PreloaderComponent,
-    FrameComponent
+    FrameComponent,
+    SidepanelComponent
   ],
   imports: [
     BrowserModule,
