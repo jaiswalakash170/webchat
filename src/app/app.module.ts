@@ -16,6 +16,7 @@ import { ContactsComponent } from './frame/sidepanel/contacts/contacts.component
 import { BottomBarComponent } from './frame/sidepanel/bottom-bar/bottom-bar.component';
 import { ContactProfileComponent } from './frame/content/contact-profile/contact-profile.component';
 import { MessagesComponent } from './frame/content/messages/messages.component';
+import { MessageInputComponent } from './frame/content/message-input/message-input.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { MessagesComponent } from './frame/content/messages/messages.component';
     ContactsComponent,
     BottomBarComponent,
     ContactProfileComponent,
-    MessagesComponent
+    MessagesComponent,
+    MessageInputComponent
   ],
   imports: [
     BrowserModule,
