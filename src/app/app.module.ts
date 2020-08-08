@@ -12,6 +12,7 @@ import { SidepanelComponent } from './frame/sidepanel/sidepanel.component';
 import { ContentComponent } from './frame/content/content.component';
 import { ProfileComponent } from './frame/sidepanel/profile/profile.component';
 import { SearchComponent } from './frame/sidepanel/search/search.component';
+import { ContactsComponent } from './frame/sidepanel/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SearchComponent } from './frame/sidepanel/search/search.component';
     SidepanelComponent,
     ContentComponent,
     ProfileComponent,
-    SearchComponent
+    SearchComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
