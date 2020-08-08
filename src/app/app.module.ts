@@ -11,6 +11,7 @@ import { FrameComponent } from './frame/frame.component';
 import { SidepanelComponent } from './frame/sidepanel/sidepanel.component';
 import { ContentComponent } from './frame/content/content.component';
 import { ProfileComponent } from './frame/sidepanel/profile/profile.component';
+import { SearchComponent } from './frame/sidepanel/search/search.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProfileComponent } from './frame/sidepanel/profile/profile.component';
     FrameComponent,
     SidepanelComponent,
     ContentComponent,
-    ProfileComponent
+    ProfileComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
