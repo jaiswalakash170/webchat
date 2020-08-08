@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PreloaderComponent } from './preloader/preloader.component';
+import { FrameComponent } from './frame/frame.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PreloaderComponent
+    PreloaderComponent,
+    FrameComponent
   ],
   imports: [
     BrowserModule,
